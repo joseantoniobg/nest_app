@@ -1,0 +1,313 @@
+{
+  "program": {
+    "fileInfos": {
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "signature": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "signature": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "fb0c09b697dc42afa84d1587e3c994a2f554d2a45635e4f0618768d16a86b69a",
+        "signature": "fb0c09b697dc42afa84d1587e3c994a2f554d2a45635e4f0618768d16a86b69a",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b5e4c2d67aa844ed503b29cd4ca2ede1a229ac7fe874613b2c996fa9c581a25f",
+        "signature": "b5e4c2d67aa844ed503b29cd4ca2ede1a229ac7fe874613b2c996fa9c581a25f",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
+        "signature": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
+        "affectsGlobalScope": false
+      },
+      "../src/app.service.ts": {
+        "version": "4f6f0ebd5d9cd5fcae5eb05571d6b6632ebc9884bd622f711d33b375d8b0f111",
+        "signature": "d8f4cb0109c1b399d657807fd6af504d74a9300325e0fc915abdbf658b464a97",
+        "affectsGlobalScope": false
+      },
+      "../src/app.controller.ts": {
+        "version": "3469c5aa62e1ba5b183d9bb9d40193e91aa761fc5734d332650b0bd49c346266",
+        "signature": "3293b0d1d6a7f902316e164fcf36ae099f1bbb0224484586eaab30d9dea78d32",
+        "affectsGlobalScope": false
+      },
+      "../src/coffees/entities/coffee.entity.ts": {
+        "version": "12284b9b3c6eec6bd0831b185c84f162c9cf316c067123412fdd8e2791403b2e",
+        "signature": "9353bebcf39a20917d8baaa50862d38bc7508395b151a43d7c02ffde2e3602e6",
+        "affectsGlobalScope": false
+      },
+      "../src/coffees/coffees.service.ts": {
+        "version": "9bf9ed1b9c21db771c4a90a9484d9fef2e80d2080b58eddd5a69af110b61b4e3",
+        "signature": "f53a9817d2bb4bb78adb3a5b7b2c07c12d2caa646bea71a7642b38997273f9ba",
+        "affectsGlobalScope": false
+      },
+      "../src/coffees/coffees.controller.ts": {
+        "version": "81e80a02bd13cacf4647aa8c4e3a7e1cfea72cdd9076d2764f9dce015da77a01",
+        "signature": "09ace376079f0bf2dfbd8bda67fedc03833c8e301ac407f025de74323e7b0828",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "4b555cf32000d830b123ebc98195ff5dece811046e044d7fbde00fac9dde9931",
+        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
+        "affectsGlobalScope": false
+      },
+      "../src/main.ts": {
+        "version": "3c8967198a459fe0868276c735fb4ecbe75c3ed2bbda02d4dcee787c5c448528",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "module": 1,
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": 4,
+      "sourceMap": true,
+      "outDir": "./",
+      "baseUrl": "..",
+      "incremental": true,
+      "configFilePath": "../tsconfig.build.json"
+    },
+    "referencedMap": {
+      "../src/app.controller.ts": [
+        "../src/app.service.ts"
+      ],
+      "../src/app.module.ts": [
+        "../src/app.controller.ts",
+        "../src/app.service.ts",
+        "../src/coffees/coffees.controller.ts",
+        "../src/coffees/coffees.service.ts"
+      ],
+      "../src/coffees/coffees.controller.ts": [
+        "../src/coffees/coffees.service.ts"
+      ],
+      "../src/coffees/coffees.service.ts": [
+        "../src/coffees/entities/coffee.entity.ts"
+      ],
+      "../src/main.ts": [
+        "../src/app.module.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/app.controller.ts": [
+        "../src/app.service.ts"
+      ],
+      "../src/coffees/coffees.controller.ts": [
+        "../src/coffees/coffees.service.ts",
+        "../src/coffees/entities/coffee.entity.ts"
+      ],
+      "../src/coffees/coffees.service.ts": [
+        "../src/coffees/entities/coffee.entity.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.dom.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2016.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.es5.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "c:/users/josea/appdata/roaming/npm/node_modules/@nestjs/cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      [
+        "../src/app.controller.ts",
+        [
+          {
+            "file": "../src/app.controller.ts",
+            "start": 32,
+            "length": 16,
+            "messageText": "Cannot find module '@nestjs/common' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      [
+        "../src/app.module.ts",
+        [
+          {
+            "file": "../src/app.module.ts",
+            "start": 23,
+            "length": 16,
+            "messageText": "Cannot find module '@nestjs/common' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      [
+        "../src/app.service.ts",
+        [
+          {
+            "file": "../src/app.service.ts",
+            "start": 27,
+            "length": 16,
+            "messageText": "Cannot find module '@nestjs/common' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      [
+        "../src/coffees/coffees.controller.ts",
+        [
+          {
+            "file": "../src/coffees/coffees.controller.ts",
+            "start": 100,
+            "length": 16,
+            "messageText": "Cannot find module '@nestjs/common' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      [
+        "../src/coffees/coffees.service.ts",
+        [
+          {
+            "file": "../src/coffees/coffees.service.ts",
+            "start": 27,
+            "length": 16,
+            "messageText": "Cannot find module '@nestjs/common' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      "../src/coffees/entities/coffee.entity.ts",
+      [
+        "../src/main.ts",
+        [
+          {
+            "file": "../src/main.ts",
+            "start": 28,
+            "length": 14,
+            "messageText": "Cannot find module '@nestjs/core' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ]
+    ]
+  },
+  "version": "4.0.5"
+}
