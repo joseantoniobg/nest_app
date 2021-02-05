@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CoffeesService = void 0;
 const common_1 = require("@nestjs/common");
+const create_coffee_dto_1 = require("./dto/create-coffee.dto");
 let CoffeesService = class CoffeesService {
     constructor() {
         this.coffees = [
@@ -23,9 +24,14 @@ let CoffeesService = class CoffeesService {
         return this.coffees;
     }
     findOne(id) {
-        return this.coffees.find(coffee => coffee.id === +id);
+        const coffee = this.coffees.find(coffee => coffee.id === +id);
+        if (!coffee) {
+            throw new common_1.HttpException(`Coffee #${id} not found`, common_1.HttpStatus.NOT_FOUND);
+        }
+        return coffee;
     }
     create(createCoffeDto) {
+        console.log(createCoffeDto instanceof create_coffee_dto_1.CreateCoffeeDto);
         this.coffees.push(createCoffeDto);
     }
     update(id, updateCoffeDto) {

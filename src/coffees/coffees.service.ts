@@ -1,4 +1,5 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { CreateCoffeeDto } from './dto/create-coffee.dto';
 import { Coffee } from './entities/coffee.entity';
 
 @Injectable()
@@ -25,6 +26,7 @@ export class CoffeesService {
     }
 
     create (createCoffeDto: any){
+        console.log(createCoffeDto instanceof CreateCoffeeDto);
         this.coffees.push(createCoffeDto);
     }
 
