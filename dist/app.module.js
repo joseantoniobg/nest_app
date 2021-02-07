@@ -12,20 +12,34 @@ const typeorm_1 = require("@nestjs/typeorm");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const coffees_module_1 = require("./coffees/coffees.module");
+const coffee_rating_module_1 = require("./coffee-rating/coffee-rating.module");
+const database_module_1 = require("./database/database.module");
+const config_1 = require("@nestjs/config");
+const app_config_1 = require("./config/app.config");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [coffees_module_1.CoffeesModule, typeorm_1.TypeOrmModule.forRoot({
-                type: 'postgres',
-                host: 'localhost',
-                port: 5432,
-                username: 'postgres',
-                password: 'pass123',
-                database: 'postgres',
-                autoLoadEntities: true,
-                synchronize: true,
-            })],
+        imports: [
+            typeorm_1.TypeOrmModule.forRootAsync({
+                useFactory: () => ({
+                    type: 'postgres',
+                    host: process.env.DATABASE_HOST,
+                    port: +process.env.DATABASE_PORT,
+                    username: process.env.DATABASE_USER,
+                    password: process.env.DATABASE_PASSWORD,
+                    database: process.env.DATABASE_NAME,
+                    autoLoadEntities: true,
+                    synchronize: true,
+                }),
+            }),
+            config_1.ConfigModule.forRoot({
+                load: [app_config_1.default],
+            }),
+            coffee_rating_module_1.CoffeeRatingModule,
+            coffees_module_1.CoffeesModule,
+            database_module_1.DatabaseModule
+        ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

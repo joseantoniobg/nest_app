@@ -9,30 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Evento = void 0;
-const typeorm_1 = require("typeorm");
-let Evento = class Evento {
+exports.CoffeeRatingService = void 0;
+const common_1 = require("@nestjs/common");
+const coffees_service_1 = require("../coffees/coffees.service");
+let CoffeeRatingService = class CoffeeRatingService {
+    constructor(coffeeService) {
+        this.coffeeService = coffeeService;
+    }
 };
-__decorate([
-    typeorm_1.PrimaryGeneratedColumn(),
-    __metadata("design:type", Number)
-], Evento.prototype, "id", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", String)
-], Evento.prototype, "type", void 0);
-__decorate([
-    typeorm_1.Index(),
-    typeorm_1.Column(),
-    __metadata("design:type", String)
-], Evento.prototype, "name", void 0);
-__decorate([
-    typeorm_1.Column('json'),
-    __metadata("design:type", Object)
-], Evento.prototype, "payload", void 0);
-Evento = __decorate([
-    typeorm_1.Index(['name', 'type']),
-    typeorm_1.Entity()
-], Evento);
-exports.Evento = Evento;
-//# sourceMappingURL=event.entity.js.map
+CoffeeRatingService = __decorate([
+    common_1.Injectable(),
+    __metadata("design:paramtypes", [coffees_service_1.CoffeesService])
+], CoffeeRatingService);
+exports.CoffeeRatingService = CoffeeRatingService;
+//# sourceMappingURL=coffee-rating.service.js.map

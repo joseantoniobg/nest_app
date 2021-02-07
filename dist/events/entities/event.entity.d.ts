@@ -1,4 +1,4 @@
-export declare class Event {
+export declare class Evento {
     id: number;
     type: string;
     name: string;
