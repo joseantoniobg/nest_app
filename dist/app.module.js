@@ -16,6 +16,8 @@ const coffee_rating_module_1 = require("./coffee-rating/coffee-rating.module");
 const database_module_1 = require("./database/database.module");
 const config_1 = require("@nestjs/config");
 const app_config_1 = require("./config/app.config");
+const core_1 = require("@nestjs/core");
+const common_module_1 = require("./common/common.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -38,10 +40,13 @@ AppModule = __decorate([
             }),
             coffee_rating_module_1.CoffeeRatingModule,
             coffees_module_1.CoffeesModule,
-            database_module_1.DatabaseModule
+            database_module_1.DatabaseModule, common_module_1.CommonModule
         ],
         controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService],
+        providers: [app_service_1.AppService, {
+                provide: core_1.APP_PIPE,
+                useClass: common_1.ValidationPipe,
+            }],
     })
 ], AppModule);
 exports.AppModule = AppModule;
